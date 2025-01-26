@@ -73,7 +73,7 @@ Welcome to this step-by-step guide for setting up a Go project in a Dev Containe
 
 4. Reopen the project in the VSCode Dev Container by pressing `Ctrl+Shift+P` (or `Cmd+Shift+P` on Mac), typing `Dev Containers: Reopen in Container`, and selecting the option. This may take a few minutes while the image is downloaded and the requirements are installed.
 
-    Once your dev container setup completes, close the current terminal tab (trash can), open a new terminal pane within VSCode, and try running go version to see your dev container is running a recent version of Go without much effort! (As of this writing: go1.23.0 released in August of 2024.)
+    Once your dev container setup completes, close the current terminal tab (trash can), open a new terminal pane within VSCode, and try running `go version` to see your dev container is running a recent version of Go without much effort! (As of this writing: go1.23.0 released in August of 2024.)
 
 ## Part 3: Creating a Hello World Program
 
