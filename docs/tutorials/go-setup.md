@@ -1,9 +1,9 @@
 # Setting up a dev container for Go
 
+Welcome to this step-by-step guide for setting up a Go project in a Dev Container! By the end of this tutorial, you'll have a fully functional Go development environment and a simple program that prints "Hello COMP423."
+
 * Primary author: [Logan Gatza](https://github.com/lrgatza)
 * Reviewer: [Nicholas Nguyen](https://github.com/Nickn2137)
-
-Welcome to this step-by-step guide for setting up a Go project in a Dev Container! By the end of this tutorial, you'll have a fully functional Go development environment and a simple program that prints "Hello COMP423."
 
 ## Prerequisites 
 
@@ -119,7 +119,7 @@ Welcome to this step-by-step guide for setting up a Go project in a Dev Containe
 
 ## Conclusion
 
-Congrats! 
+Congratulations! 
 You have successfully created a Development Environment and run a program in Go! The skills you learned can be easily applied to more programs you create in the future! 
 
 ### Sources
