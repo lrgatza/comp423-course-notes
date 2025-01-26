@@ -3,16 +3,18 @@
 * Primary author: [Logan Gatza](https://github.com/lrgatza)
 * Reviewer: [Nicholas Nguyen](https://github.com/Nickn2137)
 
+Welcome to this step-by-step guide for setting up a Go project in a Dev Container! By the end of this tutorial, you'll have a fully functional Go development environment and a simple program that prints "Hello COMP423."
+
 ## Prerequisites 
 
 !!! info "Required Installations"
     Ensure your machine has the following tools installed before starting this tutorial!
 
-- **Git**: [Install Git](https://git-scm.com/downloads)
-- **Docker**: [Install Docker Desktop](https://www.docker.com/products/docker-desktop/)
-- **VS Code**: [Download VS Code](https://code.visualstudio.com/)
+1. **Git**: [Install Git](https://git-scm.com/downloads).
+- **Docker**: [Install Docker Desktop](https://www.docker.com/products/docker-desktop/).
+- **VS Code**: [Download VS Code](https://code.visualstudio.com/).
 - **Dev-Containers Extension**: Install in VS Code via `Ctrl+Shift+X`.
-- **Knowledge of Command-Line Basics**
+- **Command-Line Basics**: Familiarity with terminal commands and Git.
 
 
 ## Part 1: Project Setup: Creating the Repositiory
@@ -42,7 +44,7 @@
 
 1. In VS Code, open the `go-project` directory. You can do this via: `File > Open Folder`.
 
-2. Create a .devcontainer directory in the root of your project with the following file inside of this "hidden" configuration directory:
+2. Create a `.devcontainer` directory in the root of your project with the following file inside of this "hidden" configuration directory:
     `.devcontainer/devcontainer.json`
 
 3. Edit `devcontainer.json` to include the following:
@@ -61,7 +63,7 @@
     }
     ```
 
-    The devcontainer.json file defines the configuration for your development environment. Here, we're specifying the following:
+    The `devcontainer.json` file defines the configuration for your development environment. Here, we're specifying the following:
 
     - `name`: A descriptive name for your dev container.
     
@@ -90,7 +92,7 @@
     import "fmt"
 
     func main() {
-        fmt.Println("Hello, World!")
+        fmt.Println("Hello COMP423")
     }
     ```
 3. To run your code, use the following command:
@@ -101,7 +103,7 @@
     This should have an expected output of 
     
     ```bash
-    "Hello, World!"
+    "Hello COMP423"
     ```
     !!! note "`go run` vs `go build`"
         Alternatively you could also use the following sequence of commands: 
@@ -113,7 +115,7 @@
         This achieves the same output as the `run` command but in a slighlty different way.
         
         - The `go run` command compiles and runs the code in one action, utilizing a temporary binary file that is then automatically deleted.
-        - The 'go build' command produces a standalone exectutable (`hello`) that can then be run using `./hello`
+        - The `go build` command produces a standalone exectutable (`hello`) that can then be run using `./hello`
 
 ## Conclusion
 
